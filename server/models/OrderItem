@@ -1,0 +1,21 @@
+const {DataTypes} = require('sequelize')
+
+const {sequelize} = require('../util/database')
+
+module.exports = {
+OrderItem : sequelize.define('orderItem', {
+    OrderItemID: {
+             type: DataTypes.INTEGER,
+             autoIncrement: true,
+             allowNull: false,
+             primaryKey: true
+       },
+       OrderID: DataTypes.INTEGER,
+       ItemID: DataTypes.INTEGER,
+       ItemQuantity: DataTypes.INTEGER,      
+       createdAt: DataTypes.DATE,
+       updatedAt: DataTypes.DATE,
+    })
+ }
+
+ 

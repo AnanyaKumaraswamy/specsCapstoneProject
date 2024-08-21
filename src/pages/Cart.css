@@ -1,0 +1,58 @@
+.cartpage{
+    background-color: rgb(173, 196, 180);
+    min-height: 650px;
+    padding: 100px;
+}
+.cart{
+    background-color: bisque;
+    height: auto;
+    width: 500px;
+    margin: 50px;
+    margin-top: -50px;
+    padding: 50px;
+    border-width: 10px;
+    border-color: rgb(240, 211, 150);
+    border-style: solid;
+    align-items: center;
+}
+
+.cart-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cart-item-button{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 23px;
+    height: 23px;
+}
+
+
+.cart_checkout{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+    
+
+.GoToCheckout-btn{
+    color: #f0f0f0;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 1rem;
+	background: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+    color: rgb(43, 40, 40);
+    font-family: 'Lucida Handwriting';
+    font-weight: bold;
+}
+
+.GoToCheckout-btn:hover {
+    text-decoration: underline;
+}
